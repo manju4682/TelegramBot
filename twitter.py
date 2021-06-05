@@ -17,11 +17,11 @@ def fetch_tweets():
             continue
         else:
             message += str(cnt)
-            message += '%0D%0A'
+            message += '\n'
             message += urllib.parse.quote(i.full_text)
-            message += '%0D%0A'
+            message += '\n'
             message += urllib.parse.quote(str(i.created_at))
-            message += '%0D%0A%0D%0A'
+            message += '\n\n'
             cnt+=1
         if(cnt==5): break    
 
