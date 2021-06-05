@@ -158,6 +158,6 @@ def Reply(options_flag,chat_id,bot_id):
 
 if __name__ == '__main__':
     
-    bot_id = "1514088243:AAEjC_cPALeHmlvuPspykxOMq1hm8QH94k8"
-    chat_id = -537467996
+    bot_id = "XXXXXXXXXXXXXXXXXXXXXXXXX"
+    chat_id = 'IIIIIIIIIII'
     Listen(bot_id,chat_id)
